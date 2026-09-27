@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  [EN]    Minimal Diploma envelope template. The <DadosDiploma> node is copied here from the
+          signed Documentação Acadêmica de Registro by DiplomaAssemblyService, right before
+          <DadosRegistro>. DadosRegistro's fields below are illustrative placeholders — replace
+          with your registrar's actual field set per the MEC XSD.
+  [PT-BR] Template mínimo do envelope Diploma. O nó <DadosDiploma> é copiado aqui a partir da
+          Documentação Acadêmica de Registro assinada pelo DiplomaAssemblyService, logo antes de
+          <DadosRegistro>. Os campos de DadosRegistro abaixo são placeholders ilustrativos —
+          substitua pelo conjunto de campos real da sua registradora conforme o XSD do MEC.
+-->
+<Diploma xmlns="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd">
+  <infDiploma>
+    <!-- <DadosDiploma> copiado aqui pelo DiplomaAssemblyService -->
+    <DadosRegistro>
+      <numeroRegistro>SUBSTITUA_PELO_NUMERO_DE_REGISTRO</numeroRegistro>
+      <livroRegistro>SUBSTITUA_PELO_LIVRO</livroRegistro>
+      <folhaRegistro>SUBSTITUA_PELA_FOLHA</folhaRegistro>
+      <dataRegistro>SUBSTITUA_PELA_DATA</dataRegistro>
+      <codigoIesRegistradora>SUBSTITUA_PELO_CODIGO_E-MEC</codigoIesRegistradora>
+    </DadosRegistro>
+  </infDiploma>
+</Diploma>
